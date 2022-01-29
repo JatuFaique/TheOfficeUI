@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  --fulvous: rgb(217, 126, 28);
+  --fulvous-light: rgba(217, 126, 28, 0.349);
+  --border-danger: rgb(216, 43, 43);
+  --bright-navy-blue: hsla(211, 77%, 48%, 1);
+  --hookers-green: hsla(152, 21%, 36%, 1);
+  --border-succes: rgb(73, 216, 149);
+  --mint-cream: hsla(120, 100%, 98%, 1);
+  --black-chocolate: hsla(57, 100%, 4%, 1);
+}
+
+.disp-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  gap: 2px;
+}
+
+.avatar-section {
+  border: 1px solid black;
+}
+
+.bs {
+  background-color: var(--fulvous-light);
+  border: none;
+}
+
+.br-bs {
+  background-color: var(--fulvous-light);
+  border: 1px solid var(--border-danger);
+}
+
+.br-sc {
+  background-color: var(--fulvous-light);
+  border: 1px solid var(--border-succes);
+}
+
+.av-m {
+  position: relative;
+  /* height: 10%;
+  width: 10%; */
+  height: 1.5em;
+  width: 1.5em;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  border-radius: 50%;
+  display: flex;
+}
+
+.av-m img {
+  height: 100%;
+  width: 100%;
+  border: 1px solid var(--fulvous-light);
+  border-radius: 50%;
+}
+
+.av-l {
+  position: relative;
+  /* height: 10%;
+    width: 10%; */
+  height: 2em;
+  width: 2em;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  border-radius: 50%;
+  display: flex;
+}
+
+.av-l img {
+  height: 100%;
+  width: 100%;
+  border: 1px solid var(--fulvous-light);
+  border-radius: 50%;
+}
+
+.av-s {
+  position: relative;
+  /* height: 10%;
+      width: 10%; */
+  height: 1.4em;
+  width: 1.4em;
+  font-size: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  border-radius: 50%;
+  display: flex;
+}
+
+.av-s img {
+  height: 100%;
+  width: 100%;
+  border: 1px solid var(--fulvous-light);
+  border-radius: 50%;
+}
