@@ -39,16 +39,35 @@ button {
   border-radius: 8px;
 }
 
+button:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
 .btn-prim {
   border: none;
   background-color: var(--fulvous);
   color: white;
 }
 
+.p-outline {
+  background-color: white;
+  color: var(--fulvous);
+  border: 1px solid var(--fulvous);
+  font-weight: bolder;
+}
+
 .btn-secd {
   border: none;
   background-color: var(--bright-navy-blue);
   color: white;
+}
+
+.s-outline {
+  background-color: white;
+  color: var(--bright-navy-blue);
+  border: 1px solid var(--bright-navy-blue);
+  font-weight: bolder;
 }
 
 .btn-succ {
