@@ -10,7 +10,7 @@
 body {
   font-family: "Inter", sans-serif;
   --fulvous: rgb(217, 126, 28);
-  --fulvous-light: rgba(217, 126, 28, 0.349);
+  --fulvous-light: rgb(217, 126, 28);
   --border-danger: rgb(216, 43, 43);
   --bright-navy-blue: hsla(211, 77%, 48%, 1);
   --hookers-green: hsla(152, 21%, 36%, 1);
@@ -36,7 +36,8 @@ body {
 }
 
 .br-bs {
-  background-color: var(--fulvous-light);
+  /* background-color: var(--fulvous-light); */
+  background-color: #d97e1cc9;
   border: 1px solid var(--border-danger);
 }
 
@@ -49,8 +50,8 @@ body {
   position: relative;
   /* height: 10%;
   width: 10%; */
-  height: 1.5em;
-  width: 1.5em;
+  height: 3em;
+  width: 3em;
   font-size: 16px;
   justify-content: center;
   align-items: center;
@@ -70,8 +71,8 @@ body {
   position: relative;
   /* height: 10%;
     width: 10%; */
-  height: 2em;
-  width: 2em;
+  height: 4em;
+  width: 4em;
   font-size: 16px;
   justify-content: center;
   align-items: center;
@@ -91,9 +92,9 @@ body {
   position: relative;
   /* height: 10%;
       width: 10%; */
-  height: 1.4em;
-  width: 1.4em;
-  font-size: 0.5rem;
+  height: 3em;
+  width: 3em;
+  font-size: 0.7rem;
   justify-content: center;
   align-items: center;
   /* text-align: center; */
