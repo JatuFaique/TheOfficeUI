@@ -12,7 +12,7 @@ body {
   --fulvous: rgb(217, 126, 28);
   --fulvous-light: rgba(217, 126, 28, 0.349);
   --border-danger: rgb(216, 43, 43);
-  --bright-navy-blue: hsla(211, 77%, 48%, 1);
+  --bright-navy-blue: rgba(28, 119, 217, 0.63);
   --hookers-green: rgb(73, 111, 93);
   --border-succes: rgb(73, 216, 149);
   --mint-cream: hsla(120, 100%, 98%, 1);
@@ -26,11 +26,18 @@ body {
   gap: 2px;
 }
 
+.disp-flex-col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 1rem 0;
+  gap: 2px;
+}
+
 .al {
   display: flex;
   flex-wrap: wrap;
   min-width: 80%;
-
   font-size: 14px;
   padding: 8px;
   margin-right: auto;
