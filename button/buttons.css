@@ -81,3 +81,9 @@ button:hover {
   background-color: var(--fulvous-light);
   border: 2px solid var(--border-danger);
 }
+
+.btn-float {
+  border: none;
+  background-color: var(--fulvous);
+  color: white;
+}
