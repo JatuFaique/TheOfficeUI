@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  --fulvous: rgb(217, 126, 28);
+  --fulvous-light: rgba(217, 126, 28, 0.349);
+  --border-danger: rgb(216, 43, 43);
+  --bright-navy-blue: hsla(211, 77%, 48%, 1);
+  --hookers-green: hsla(152, 21%, 36%, 1);
+  --border-succes: rgb(73, 216, 149);
+  --mint-cream: hsla(120, 100%, 98%, 1);
+  --black-chocolate: hsla(57, 100%, 4%, 1);
+}
+
+.disp-flex {
+  display: flex;
+}
+
+.header {
+  padding: 16px;
+  background-color: var(--fulvous);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  /* box-shadow: 0px 1px 1px #de1dde; */
+  box-shadow: 0 5px 2px #888888;
+}
+
+.brandname {
+  display: inline-flex;
+  align-items: center;
+  max-width: max-content;
+  cursor: pointer;
+  color: white;
+}
+
+.brandname-title {
+  font-weight: 900;
+}
+
+.brandname-link {
+  /* margin-left: 4.1em; */
+  text-decoration: none;
+}
+
+.header img {
+  height: 50px;
+  width: 50px;
+}
+
+ul,
+li {
+  list-style: none;
+  display: inline;
+}
+
+.main-container {
+  margin-top: 10em;
+}
+
+.main-logo {
+  width: 10em;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-desc {
+  font-size: 1.5rem;
+  max-width: 20em;
+  text-align: center;
+  margin: 2em auto;
+}
+
+.button-container {
+  max-width: max-content;
+  margin: 0 auto;
+}
+
+.main-start,
+.main-github {
+  border: none;
+  background-color: var(--fulvous);
+  color: #fff;
+  height: 3.1em;
+  width: 10.6em;
+  font-size: 1rem;
+  border-radius: 2em;
+  margin: 0 0.7em;
+  cursor: pointer;
+}
+
+.main-github {
+  border: solid 2px var(--bright-navy-blue);
+  background-color: transparent;
+  color: #000;
+}
