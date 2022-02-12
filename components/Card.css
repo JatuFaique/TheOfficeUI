@@ -27,3 +27,128 @@ body {
   align-items: flex-start;
   gap: 8px;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.card {
+  overflow: hidden;
+  background-color: rgb(224, 224, 224);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem;
+}
+
+.card-vertical {
+  flex: 1 1 23rem;
+  min-width: 18em;
+  max-width: 22em;
+  /* min-height: 23rem; */
+  max-height: fit-content;
+  width: 22rem;
+}
+
+.card-horizontal {
+  max-height: fit-content;
+  /* min-width: 20rem; */
+  flex: 1 1 20rem;
+  max-width: 32rem;
+}
+
+.content-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.8rem;
+  border-bottom: 1.5px solid gray;
+}
+
+.content-horizontal p {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.content-horizontal img {
+  /* width: 12rem; */
+  /* height: 10rem; */
+  height: 10rem;
+  width: 80%;
+}
+
+.card-content img {
+  width: 100%;
+  height: 250px;
+}
+
+.header-over-img {
+  position: absolute;
+  padding: 2rem 0 0 1rem;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.card-header {
+  font-size: 1.2rem;
+  padding: 12px 12px 12px 12px;
+
+  border-radius: 5px;
+}
+
+.card-text {
+  position: relative;
+  color: rgb(77, 77, 77);
+  font-size: 1rem;
+  padding: 0px 12px 12px 12px;
+  margin-bottom: auto;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.btn-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 6px;
+  padding-bottom: 12px;
+}
+
+.btn-list button {
+  border: none;
+  font-size: 0.9rem;
+  padding: 6px 8px 6px 8px;
+  border-radius: 10px;
+  background-color: var(--fulvous-light);
+}
+
+.btn-list button:hover {
+  transform: scale(1.1);
+  color: rgb(0, 0, 0);
+}
+.btn-list i:hover {
+  transform: scale(1.1);
+  color: rgb(0, 0, 0);
+}
+
+.close-bdg {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
