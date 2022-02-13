@@ -30,7 +30,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: col;
-  padding: 1rem 0;
+
   gap: 2px;
 }
 
@@ -43,7 +43,8 @@ body {
   max-width: 450px;
   /* border: 2px solid black; */
   border: 1px solid var(--fulvous);
-  padding: 8px;
+  border-radius: 5px;
+  /* padding: 8px; */
 }
 
 .toast-title {
