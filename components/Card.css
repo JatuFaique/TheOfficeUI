@@ -28,15 +28,6 @@ body {
   gap: 8px;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
-
-* {
-  top: 0;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .cards-section {
   display: flex;
   flex-direction: row;
