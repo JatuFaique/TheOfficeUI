@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  --fulvous: rgb(217, 126, 28);
+  --fulvous-light: rgba(217, 126, 28, 0.349);
+  --border-danger: rgb(216, 43, 43);
+  --bright-navy-blue: rgba(28, 119, 217, 0.63);
+  --hookers-green: rgb(73, 111, 93);
+  --border-succes: rgb(73, 216, 149);
+  --mint-cream: hsla(120, 100%, 98%, 1);
+  --black-chocolate: hsla(57, 100%, 4%, 1);
+}
+
+.disp-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  gap: 2px;
+  text-align: center;
+}
+
+.disp-flex-col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.disp-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-xl {
+  line-height: 4rem;
+  font-size: 3rem;
+}
+
+.text-l {
+  line-height: 2.5rem;
+  font-size: 2rem;
+}
+
+.text-m {
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
+.text-sm {
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+
+.text-xsm {
+  line-height: 1rem;
+  font-size: 0.8rem;
+}
+
+.text-grey {
+  color: gray;
+}
+
+.text-center {
+  text-align: center;
+}
