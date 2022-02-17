@@ -29,8 +29,7 @@ body {
 .disp-flex-col {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: col;
-
+  flex-direction: column;
   gap: 2px;
 }
 

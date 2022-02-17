@@ -1,101 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./docs.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/mexico-light.min.css">
-   <link rel="stylesheet" href="/components/components.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./docs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/mexico-light.min.css"
+    />
+    <link rel="stylesheet" href="/components/components.css" />
     <title>Documentation</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header disp-flex">
-        <a class="brandname-link" href="/index.html">
-            <span class="brandname">
-                <img
-                    class="brandname-logo"
-                    src="../OfficeuiLogo.png"
-                />
-                <span class="brandname-title">TheOfficeUI</span>
-            </span>
-        </a>
-        <a><span class="docs-link">Documentation</span></a>
+      <a class="brandname-link" href="/index.html">
+        <span class="brandname">
+          <img class="brandname-logo" src="../OfficeuiLogo.png" />
+          <span class="brandname-title">TheOfficeUI</span>
+        </span>
+      </a>
+      <a><span class="docs-link">Documentation</span></a>
     </header>
-    <div class='grid-row'>
-        <nav class="site-nav">
-                    <div class="nav-main-heading">Getting Started</div>
-        
-                    <div class="nav-sub-heading nav-getstarted">
-                        <a style="color: #027a64" href="/pages/usage.html">Usage</a>
-                    </div>
-        
-                    <div class="nav-main-heading">Components</div>
-                    <ul class="nav-comp-section">
-                        <li class="component-links">
-                            <a href="ml">Avatar</a>
-                        </li>
-                        <li class="component-links">
-                            <a href="">Alert</a>
-                        </li>
-                        <li class="component-links">
-                            <a href="">Badge</a>
-                        </li>
-                        <li class="component-links">
-                            <a href="ml">Button</a>
-                        </li>
-                        <li class="component-links">
-                            <a href="">Card</a>
-                        </li>
-                        <li class="component-links">
-                            <a href="">Image</a>
-                        </li>
-                        <li class="component-links">
-                            <a href="">Input</a>
-                        </li>
-                        <li class="component-links">
-                            <a href="">List</a>
-                        </li>
-                        <li class="component-links">
-                            <a href="">Navigation</a>
-                        </li>
-                        <li class="component-links">
-                            <a href="">Toast</a>
-                        </li>
-                        <li class="component-links"></li>
-                    </ul>
-        </nav>
-        <main class="comp-disp">
-            <h1 class="comp-disp-header">Usage</h1>
-            <p class="comp-desc">
-                To start using the components in your project import the
-                stylesheet in your css or html file.
-            </p>
-            <pre class="comp-code-container"><code class="html">
-                @import url("https://openui.netlify.app/css/components.css");
+    <div class="grid-row">
+      <nav class="site-nav">
+        <div class="nav-main-heading">Getting Started</div>
+
+        <div class="nav-sub-heading nav-getstarted">
+          <a style="color: #027a64" href="/pages/usage.html">Usage</a>
+        </div>
+
+        <div class="nav-main-heading">Components</div>
+        <ul class="nav-comp-section">
+          <li class="component-links">
+            <a href="ml">Avatar</a>
+          </li>
+          <li class="component-links">
+            <a href="">Alert</a>
+          </li>
+          <li class="component-links">
+            <a href="">Badge</a>
+          </li>
+          <li class="component-links">
+            <a href="ml">Button</a>
+          </li>
+          <li class="component-links">
+            <a href="">Card</a>
+          </li>
+          <li class="component-links">
+            <a href="">Image</a>
+          </li>
+          <li class="component-links">
+            <a href="">Input</a>
+          </li>
+          <li class="component-links">
+            <a href="">List</a>
+          </li>
+          <li class="component-links">
+            <a href="">Navigation</a>
+          </li>
+          <li class="component-links">
+            <a href="">Toast</a>
+          </li>
+          <li class="component-links"></li>
+        </ul>
+      </nav>
+      <main class="comp-disp">
+        <h1 class="comp-disp-header">Usage</h1>
+        <p class="comp-desc">
+          To start using the components in your project import the stylesheet in
+          your css or html file.
+        </p>
+        <pre class="comp-code-container"><code class="html">
+                @import url("https://op");
                 &lt;link rel="stylesheet" 
-                href="https://openui.netlify.app/css/components.css">
+                href="https://op">
             </code></pre>
-            <p class="comp-desc">
-                You can also import individual components if you only need a few
-                of them. The links to import individual components can be found
-                in their respective pages.
-            </p>
-            <div class="code-display">
-                <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false"
-  style="width: 759px; height: 342px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-
+        <p class="comp-desc">
+          You can also import individual components if you only need a few of
+          them. The links to import individual components can be found in their
+          respective pages.
+        </p>
+        <div class="code-display">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false"
+            style="
+              width: 759px;
+              height: 342px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <div id="Alerts">
+          <h3>Alerts</h3>
+          <section class="alerts-section disp-flex">
+            <div class="al bs">Default Alert</div>
+          </section>
+          <section class="alerts-section disp-flex">
+            <div class="al ss">Success Alert</div>
+          </section>
+          <section class="alerts-section disp-flex">
+            <div class="al dn">Danger Alert</div>
+          </section>
+          <section class="alerts-section disp-flex">
+            <div class="al in disp-flex-col">
+              <div class="heading">
+                <i class="fas fa-info-circle"></i>
+                <h3>Info</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                expedita delectus distinctio aut dolor eveniet
+              </p>
             </div>
-        </main>
-        
-       
-      
-        
+          </section>
+          <section class="alerts-section disp-flex">
+            <div class="al wn">
+              <strong>Warning Alert</strong>
+              <span>
+                <i class="fas fa-times"></i>
+              </span>
+            </div>
+          </section>
+        </div>
+        <div id="card">
+          <h3>Cards</h3>
+          <div class="card card-horizontal">
+            <div class="content-horizontal">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header header-over-img">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+            </div>
 
+            <div class="btn-list">
+              <button>Add to Cart</button>
+              <button>Buy Now</button>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+              <i class="fas fa-info"></i>
+            </div>
+          </div>
+
+          <div class="card card-vertical">
+            <div class="card-content">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header header-over-img">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Dolores cum dolor consequuntur amet officia
+                  eum fugiat facilis. Quaerat
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-list">
+              <button>Add to Cart</button>
+              <button>Buy Now</button>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+              <i class="fas fa-info"></i>
+            </div>
+          </div>
+
+          <div class="card card-vertical">
+            <div class="card-content">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-list">
+              <button>Add to Cart</button>
+              <button style="display: none">Buy Now</button>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share" style="display: none"></i>
+              <i class="fas fa-info" style="display: none"></i>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </div>
+
+          <div class="card card-vertical">
+            <div class="card-content">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-list">
+              <button>Add to Cart</button>
+              <button>Buy Now</button>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+              <i class="fas fa-info"></i>
+            </div>
+            <span class="close-bdg">
+              <i class="fas fa-times"></i>
+            </span>
+          </div>
+
+          <div class="card card-horizontal">
+            <div class="content-horizontal">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header header-over-img">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+                <div class="btn-list">
+                  <button>Add to Cart</button>
+                  <button>Buy Now</button>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-share"></i>
+                  <i class="fas fa-info"></i>
+                </div>
+              </div>
+            </div>
+            <div class="btn-list">
+              <h3>Go Back</h3>
+            </div>
+          </div>
+        </div>
+        <div id="image">
+          <h3>Images</h3>
+          <div class="image-bs">
+            <img class="image" src="https://picsum.photos/400" />
+          </div>
+          <div class="image-rnd">
+            <img class="image round" src="https://picsum.photos/400" />
+          </div>
+        </div>
+
+        <div id="input-box">
+          <h3>Input Box</h3>
+          <section class="input-box disp-flex">
+            <div class="input-field">
+              <input id="email-field" type="email" />
+              <label for="email-field" class="placeholder">Enter Email</label>
+            </div>
+          </section>
+          <section class="input-box disp-flex">
+            <div class="input-field">
+              <input id="email-field" type="email" />
+              <label for="email-field" class="placeholder">Enter Email</label>
+              <span class="error-message" aria-live="polite"
+                >The email is invalid</span
+              >
+            </div>
+          </section>
+        </div>
+        <div id="list-items">
+          <h3>List Items</h3>
+          <ul class="list">
+            <div class="list-heading">
+              <span>Author</span>
+            </div>
+            <label for="checkbox1">
+              <input type="checkbox" />
+              Stationary
+            </label>
+            <label for="checkbox2">
+              <input type="checkbox" />
+              Pencibox
+            </label>
+            <label for="checkbox3">
+              <input type="checkbox" />
+              Table
+            </label>
+            <label for="checkbox4">
+              <input type="checkbox" />
+              Table Fan
+            </label>
+            <label for="checkbox5">
+              <input type="checkbox" />
+              Lamp
+            </label>
+            <label for="checkbox6">
+              <input type="checkbox" />
+              Headphones
+            </label>
+            <label for="checkbox7">
+              <input type="checkbox" />
+              Paper File
+            </label>
+          </ul>
+          <ul class="list">
+            <div class="list-heading">
+              <span>Categories</span>
+
+              <i class="fa-solid fa-minus"></i>
+            </div>
+            <li>Clothing</li>
+            <li>Electronics</li>
+            <li>Kitchen</li>
+            <li>Music</li>
+            <li>Posters</li>
+            <li>Scuba gear</li>
+            <li>Sweatshirts</li>
+          </ul>
+        </div>
+        <div id="typography">
+          <div class="typography-section disp-flex-col">
+            <div class="text-xl">Heading 1</div>
+            <div class="text-l text-grey">Heading 2</div>
+            <div class="text-m text-center">Heading 3</div>
+            <div class="text-sm text-center">Heading 4</div>
+          </div>
+        </div>
+
+        <div id="toast">
+          <h3>Toasts</h3>
+          <section class="toast disp-flex">
+            <div class="toast-bs disp-flex-col">
+              <div class="toast-title disp-flex-row">
+                Default Toast
+                <span><i class="fas fa-times"></i></span>
+              </div>
+              <div class="toast-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Architecto quisquam fugit totam voluptate excepturi, repellendus
+                iure. Facilis aliquam dolores consequuntur reprehenderit, a
+                perspiciatis harum voluptatibus voluptate molestias, corporis
+                quam ab.
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
     </div>
-    
-</body>
+  </body>
 </html>

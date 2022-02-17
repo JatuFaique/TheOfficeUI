@@ -19,17 +19,17 @@ body {
   --black-chocolate: hsla(57, 100%, 4%, 1);
 }
 
-.disp-flex{
-    display: flex;
-    flex-direction: row;
-    padding: 8px;
+.disp-flex {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
 }
 
-.image {
-    min-width: 100%;
-    height: auto;
-  }
-  
-  .image.round {
-    border-radius: 50%;
-  }
+.image > img {
+  min-width: 100%;
+  height: auto;
+}
+
+.image.round {
+  border-radius: 50%;
+}

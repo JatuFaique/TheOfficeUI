@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;700&display=swap");
 @import "/components/avatar.css";
-@import "/components/alert.css";
+@import "/components/alert/alert.css";
 @import "/components/badge.css";
 @import "/components/button.css";
-@import "/components/card.css";
-@import "/components/images.css";
-@import "/components/inputs.css";
-@import "/components/lists.css";
-@import "/components/toast.css";
+@import "/components/card/Card.css";
+@import "/components/image/image.css";
+@import "/components/input-box/inputBox.css";
+@import "/components/list-items/lists.css";
+@import "/components/toast/toast.css";
+@import "/components/text-utils/textutils.css";
 
 * {
   margin: 0;
