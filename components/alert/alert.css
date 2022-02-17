@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  --fulvous: rgb(217, 126, 28);
+  --fulvous-light: rgba(217, 126, 28, 0.349);
+  --border-danger: rgb(216, 43, 43);
+  --bright-navy-blue: rgba(28, 119, 217, 0.63);
+  --hookers-green: rgb(73, 111, 93);
+  --border-succes: rgb(73, 216, 149);
+  --mint-cream: hsla(120, 100%, 98%, 1);
+  --black-chocolate: hsla(57, 100%, 4%, 1);
+}
+
+.disp-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  gap: 2px;
+}
+
+.disp-flex-col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 1rem 0;
+  gap: 2px;
+}
+
+.al {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 50%;
+  font-size: 14px;
+  padding: 8px;
+  margin-right: auto;
+  border-radius: 2px;
+  color: white;
+}
+
+.heading {
+  display: inline-flex;
+  align-items: center;
+}
+
+.bs {
+  background-color: var(--fulvous-light);
+  border: 1px solid var(--fulvous);
+}
+
+.ss {
+  background-color: var(--hookers-green);
+  border: 1px solid var(--border-succes);
+}
+
+.dn {
+  background-color: rgba(255, 0, 0, 0.489);
+  border: 1px solid var(--border-danger);
+}
+
+.in {
+  background-color: var(--bright-navy-blue);
+  border: 1px solid blue;
+  /* width: 80%; */
+}
+
+.wn {
+  background-color: rgb(247, 131, 36);
+  color: rgb(255, 255, 255);
+  justify-content: space-between;
+}
