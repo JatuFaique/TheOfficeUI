@@ -143,3 +143,17 @@
   font-family: "Montserrat", sans-serif;
   line-height: 1.5em;
 }
+
+.code-display {
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 30rem;
+  padding: 1rem 0;
+  margin: 2rem 0;
+  overflow: auto;
+}
+.code-display iframe {
+  width: inherit;
+  border: 0;
+  padding: 0;
+}
