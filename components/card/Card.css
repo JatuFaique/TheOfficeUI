@@ -59,7 +59,7 @@ body {
   max-height: fit-content;
   /* min-width: 20rem; */
   flex: 1 1 20rem;
-  max-width: 32rem;
+  max-width: 34rem;
 }
 
 .content-horizontal {

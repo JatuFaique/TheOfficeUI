@@ -10,6 +10,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/mexico-light.min.css"
     />
     <link rel="stylesheet" href="/components/components.css" />
+    <script
+      src="https://kit.fontawesome.com/51b1b3d424.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Documentation</title>
   </head>
   <body>
@@ -27,46 +31,45 @@
         <div class="nav-main-heading">Getting Started</div>
 
         <div class="nav-sub-heading nav-getstarted">
-          <a style="color: #027a64" href="/pages/usage.html">Usage</a>
+          <a style="color: var(--fulvous-light)" href="#usage">Usage</a>
         </div>
 
         <div class="nav-main-heading">Components</div>
         <ul class="nav-comp-section">
           <li class="component-links">
-            <a href="ml">Avatar</a>
+            <a href="#Avatars">Avatar</a>
           </li>
           <li class="component-links">
-            <a href="">Alert</a>
+            <a href="#Alerts">Alert</a>
           </li>
           <li class="component-links">
-            <a href="">Badge</a>
+            <a href="#Badge">Badge</a>
           </li>
           <li class="component-links">
-            <a href="ml">Button</a>
+            <a href="#Buttons">Button</a>
           </li>
           <li class="component-links">
-            <a href="">Card</a>
+            <a href="#card">Card</a>
           </li>
           <li class="component-links">
-            <a href="">Image</a>
+            <a href="#image">Image</a>
           </li>
           <li class="component-links">
-            <a href="">Input</a>
+            <a href="#input-box">Input</a>
           </li>
           <li class="component-links">
-            <a href="">List</a>
+            <a href="#list-items">List</a>
           </li>
           <li class="component-links">
-            <a href="">Navigation</a>
+            <a href="#toast">Toast</a>
           </li>
           <li class="component-links">
-            <a href="">Toast</a>
+            <a href="#typography">Typography</a>
           </li>
-          <li class="component-links"></li>
         </ul>
       </nav>
       <main class="comp-disp">
-        <h1 class="comp-disp-header">Usage</h1>
+        <h1 id="usage" class="comp-disp-header">Usage</h1>
         <p class="comp-desc">
           To start using the components in your project import the stylesheet in
           your css or html file.
@@ -95,8 +98,272 @@
           >
           </iframe>
         </div>
+        <div id="Avatars">
+          <h3>Avatars</h3>
+          <p>Avatars are a very essential elements in developing good UI</p>
+          <br />
+          <p>
+            You can easily use the type of avatar specifying the size as shown
+            below ex "av-s,av-m,av-l"
+          </p>
+
+          <h2 class="sub-heading">Avatars Small</h2>
+          <section class="avatar-section disp-flex">
+            <div class="av-s bs">A</div>
+            <div class="av-s br-bs">F</div>
+            <div class="av-s br-sc">S</div>
+            <div class="av-s">
+              <img src="https://picsum.photos/200" />
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-s%2520bs%2522%253EA%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2520br-bs%2522%253EF%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2520br-sc%2522%253ES%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 397px;
+                height: 190px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="sub-heading">Avatars Medium</h2>
+          <section class="avatar-section disp-flex">
+            <div class="av-m bs">A</div>
+            <div class="av-m br-bs">F</div>
+            <div class="av-m br-sc">S</div>
+            <div class="av-m">
+              <img src="https://picsum.photos/200" />
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-m%2520bs%2522%253EA%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2520br-bs%2522%253EF%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2520br-sc%2522%253ES%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 380px;
+                height: 190px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="sub-heading">Avatars Large</h2>
+          <section class="avatar-section disp-flex">
+            <div class="av-l bs">A</div>
+            <div class="av-l br-bs">F</div>
+            <div class="av-l br-sc">S</div>
+            <div class="av-l">
+              <img src="https://picsum.photos/200" />
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-l%2520bs%2522%253EA%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2520br-bs%2522%253EF%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2520br-sc%2522%253ES%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 380px;
+                height: 190px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="Badge">
+          <h2>Badges Small</h2>
+          <p>
+            Badges are a special type of avatar which you can use along with a
+            badge using 'badge' and specifying its content
+          </p>
+          <section class="avatar-section disp-flex">
+            <div class="av-s bs">
+              A
+              <div class="badge-s"></div>
+            </div>
+            <div class="av-s br-bs">
+              F
+              <div class="badge-s"></div>
+            </div>
+            <div class="av-s br-sc">
+              S
+              <div class="badge-s"></div>
+            </div>
+            <div class="av-s">
+              <img src="https://picsum.photos/200" />
+              <div class="badge-s w-txt">12+</div>
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-s%2520bs%2522%253EA%253Cdiv%2520class%253D%2522badge-s%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2520br-bs%2522%253EF%250A%253Cdiv%2520class%253D%2522badge-s%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2520br-sc%2522%253ES%250A%2520%2520%253Cdiv%2520class%253D%2522badge-s%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%2520%2520%2509%253Cdiv%2520class%253D%2522badge-s%2520w-txt%2522%253E12%252B%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 447px;
+                height: 301px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Badge Medium</h2>
+          <section class="avatar-section disp-flex">
+            <div class="av-m bs">
+              A
+              <div class="badge-m"></div>
+            </div>
+            <div class="av-m br-bs">
+              F
+              <div class="badge-m"></div>
+            </div>
+            <div class="av-m br-sc">
+              S
+              <div class="badge-m"></div>
+            </div>
+            <div class="av-m">
+              <img src="https://picsum.photos/200" />
+              <div class="badge-m w-txt">10+</div>
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=812&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-m%2520bs%2522%253E%250A%2520%2520A%250A%2520%2520%253Cdiv%2520class%253D%2522badge-m%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2520br-bs%2522%253E%250A%2520%2520F%250A%2520%2520%253Cdiv%2520class%253D%2522badge-m%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2520br-sc%2522%253E%250A%2520%2520S%250A%2520%2520%253Cdiv%2520class%253D%2522badge-m%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-m%2520w-txt%2522%253E10%252B%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 812px;
+                height: 353px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Badge Large</h2>
+          <section class="avatar-section disp-flex">
+            <div class="av-l bs">
+              A
+              <div class="badge-l"></div>
+            </div>
+            <div class="av-l br-bs">
+              F
+              <div class="badge-l"></div>
+            </div>
+            <div class="av-l br-sc">
+              S
+              <div class="badge-l"></div>
+            </div>
+            <div class="av-l">
+              <img src="https://picsum.photos/200" />
+              <div class="badge-l w-txt">10</div>
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=812&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=123%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-l%2520bs%2522%253E%250A%2520%2520A%250A%2520%2520%253Cdiv%2520class%253D%2522badge-l%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2520br-bs%2522%253E%250A%2520%2520F%250A%2520%2520%253Cdiv%2520class%253D%2522badge-l%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2520br-sc%2522%253E%250A%2520%2520S%250A%2520%2520%253Cdiv%2520class%253D%2522badge-l%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-l%2520w-txt%2522%253E10%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 812px;
+                height: 353px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="Buttons">
+          <h2>Buttons</h2>
+          <p>
+            The Primary Buttons can be easily used as shown below along with two
+            style options
+          </p>
+          <section class="btn-section disp-flex-col">
+            <div>
+              <button class="btn-prim">Primary button</button>
+              <button class="btn-prim p-outline">Primary button</button>
+            </div>
+            <div>
+              <button class="btn-secd">Secondary button</button>
+              <button class="btn-secd s-outline">Secondary button</button>
+            </div>
+            <div class="code-display">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=812&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-prim%2522%253EPrimary%2520button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-prim%2520p-outline%2522%253EPrimary%2520button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secd%2522%253ESecondary%2520button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secd%2520s-outline%2522%253ESecondary%2520button%253C%252Fbutton%253E"
+                style="
+                  width: 812px;
+                  height: 147px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <h2>Buttons with icon</h2>
+            <p>
+              Buttons with icons can be used as shown below with the icon of
+              your choice
+            </p>
+            <button class="btn-succ">
+              <i class="fas fa-search"></i>
+              Search button
+            </button>
+            <button class="btn-dgr">
+              <i class="fas fa-times"></i>
+              Cancel button
+            </button>
+            <div class="code-display">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=812&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-succ%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520Search%2520button%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-dgr%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520Cancel%2520button%250A%253C%252Fbutton%253E"
+                style="
+                  width: 812px;
+                  height: 216px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <h3>Floating axtion Buttons</h3>
+            <button class="btn-float">
+              <i class="far fa-hand-paper"></i>
+              Talk to us here!
+            </button>
+            <div class="code-display">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=812&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-float%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-hand-paper%2522%253E%253C%252Fi%253E%250A%2520%2520Talk%2520to%2520us%2520here%21%250A%253C%252Fbutton%253E"
+                style="
+                  width: 812px;
+                  height: 147px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </section>
+        </div>
         <div id="Alerts">
-          <h3>Alerts</h3>
+          <h2>Alerts</h2>
+          <p>The Styles of different type of alerts are shown below</p>
           <section class="alerts-section disp-flex">
             <div class="al bs">Default Alert</div>
           </section>
@@ -126,9 +393,29 @@
               </span>
             </div>
           </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522al%2520bs%2522%253EDefault%2520Alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522al%2520ss%2522%253ESuccess%2520Alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522al%2520dn%2522%253EDanger%2520Alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522al%2520in%2520disp-flex-col%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522heading%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ch3%253EInfo%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cp%253E%250A%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ex%250A%2520%2520%2520%2520expedita%2520delectus%2520distinctio%2520aut%2520dolor%2520eveniet%250A%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522al%2520wn%2522%253E%250A%2520%2520%253Cstrong%253EWarning%2520Alert%253C%252Fstrong%253E%250A%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 420px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
         <div id="card">
-          <h3>Cards</h3>
+          <h2>Cards</h2>
+          <p>
+            The Cards are important elements of any UI that you build, The
+            Office UI comes with different types of card which can be easily
+            used
+          </p>
+          <h2>Card Horizontal</h2>
           <div class="card card-horizontal">
             <div class="content-horizontal">
               <img
@@ -156,7 +443,21 @@
               <i class="fas fa-info"></i>
             </div>
           </div>
-
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522content-horizontal%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520header-over-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 569px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Card Vertical with text over Image</h2>
           <div class="card card-vertical">
             <div class="card-content">
               <img
@@ -186,7 +487,21 @@
               <i class="fas fa-info"></i>
             </div>
           </div>
-
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520header-over-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%250A%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Dolores%2520cum%2520dolor%2520consequuntur%2520amet%2520officia%250A%2520%2520%2520%2520%2520%2520%2520%2520eum%2520fugiat%2520facilis.%2520Quaerat%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 606px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Card Vertical</h2>
           <div class="card card-vertical">
             <div class="card-content">
               <img
@@ -215,7 +530,21 @@
               <i class="fas fa-ellipsis-v"></i>
             </div>
           </div>
-
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520style%253D%2522display%253A%2520none%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%2520style%253D%2522display%253A%2520none%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%2520style%253D%2522display%253A%2520none%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 587px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Card Vertical with close Icon</h2>
           <div class="card card-vertical">
             <div class="card-content">
               <img
@@ -246,7 +575,21 @@
               <i class="fas fa-times"></i>
             </span>
           </div>
-
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522close-bdg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 625px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Horizonral Card with Button Bottom</h2>
           <div class="card card-horizontal">
             <div class="content-horizontal">
               <img
@@ -276,19 +619,57 @@
               <h3>Go Back</h3>
             </div>
           </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522content-horizontal%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520header-over-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EGo%2520Back%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 606px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
         <div id="image">
-          <h3>Images</h3>
+          <h2>Images</h2>
+          <p>
+            The Image Element which can be used, the Height and Width of the
+            Image Depends on the Actual dimension of image source
+          </p>
+          <br />
+          It comes with 2 styles, Default and Rounded corners
           <div class="image-bs">
             <img class="image" src="https://picsum.photos/400" />
           </div>
           <div class="image-rnd">
             <img class="image round" src="https://picsum.photos/400" />
           </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image-bs%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522image%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522image-rnd%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522image%2520round%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 178px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
 
         <div id="input-box">
-          <h3>Input Box</h3>
+          <h2>Input Box</h2>
+          <p>
+            Input Box field of TheOfficeUI comes with little animation and two
+            variation of styles
+          </p>
           <section class="input-box disp-flex">
             <div class="input-field">
               <input id="email-field" type="email" />
@@ -304,12 +685,30 @@
               >
             </div>
           </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522input-box%2520disp-flex%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522email-field%2522%2520type%253D%2522email%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522email-field%2522%2520class%253D%2522placeholder%2522%253EEnter%2520Email%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E%250A%253Csection%2520class%253D%2522input-box%2520disp-flex%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522email-field%2522%2520type%253D%2522email%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522email-field%2522%2520class%253D%2522placeholder%2522%253EEnter%2520Email%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522error-message%2522%2520aria-live%253D%2522polite%2522%250A%2520%2520%2520%2520%2520%2520%253EThe%2520email%2520is%2520invalid%253C%252Fspan%250A%2520%2520%2520%2520%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+              style="
+                width: 846px;
+                height: 345px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
         <div id="list-items">
-          <h3>List Items</h3>
+          <h2>List Items</h2>
+          <p>
+            List Items of the Items can be used as shown below which comes with
+            2 variations
+          </p>
           <ul class="list">
             <div class="list-heading">
-              <span>Author</span>
+              <span>Category</span>
             </div>
             <label for="checkbox1">
               <input type="checkbox" />
@@ -354,18 +753,53 @@
             <li>Scuba gear</li>
             <li>Sweatshirts</li>
           </ul>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%253Cspan%253ECategory%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Clabel%2520for%253D%2522checkbox1%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520Stationary%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Clabel%2520for%253D%2522checkbox2%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520Pencibox%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Clabel%2520for%253D%2522checkbox3%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520Table%250A%2520%2520%253C%252Flabel%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%253Cspan%253ECategories%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-minus%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cli%253EClothing%253C%252Fli%253E%250A%2520%2520%253Cli%253EElectronics%253C%252Fli%253E%250A%2520%2520%253Cli%253EKitchen%253C%252Fli%253E%250A%2520%2520%250A%253C%252Ful%253E"
+              style="
+                width: 846px;
+                height: 569px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
+
         <div id="typography">
+          <h2>Typography</h2>
+          <p>The Typography can be used as shown in the code</p>
           <div class="typography-section disp-flex-col">
             <div class="text-xl">Heading 1</div>
             <div class="text-l text-grey">Heading 2</div>
             <div class="text-m text-center">Heading 3</div>
             <div class="text-sm text-center">Heading 4</div>
           </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-xl%2522%253EHeading%25201%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-l%2520text-grey%2522%253EHeading%25202%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-m%2520text-center%2522%253EHeading%25203%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-sm%2520text-center%2522%253EHeading%25204%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 140px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
 
         <div id="toast">
-          <h3>Toasts</h3>
+          <h2>Toasts</h2>
+          <p>
+            Toasts are the small information area which conveys a special type
+            of information and brings attention
+          </p>
           <section class="toast disp-flex">
             <div class="toast-bs disp-flex-col">
               <div class="toast-title disp-flex-row">
@@ -381,6 +815,20 @@
               </div>
             </div>
           </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522toast%2520disp-flex%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast-bs%2520disp-flex-col%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-title%2520disp-flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520Default%2520Toast%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-description%2522%253E%250A%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520Architecto%2520quisquam%2520fugit%2520totam%2520voluptate%2520excepturi%252C%2520repellendus%250A%2520%2520%2520%2520%2520%2520iure.%2520Facilis%2520aliquam%2520dolores%2520consequuntur%2520reprehenderit%252C%2520a%250A%2520%2520%2520%2520%2520%2520perspiciatis%2520harum%2520voluptatibus%2520voluptate%2520molestias%252C%2520corporis%250A%2520%2520%2520%2520%2520%2520quam%2520ab.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+              style="
+                width: 846px;
+                height: 345px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </main>
     </div>
