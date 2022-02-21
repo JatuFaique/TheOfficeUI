@@ -20,7 +20,12 @@ Put the code in Head Tag
 
 ##
 
-"<link rel="stylesheet" href="https://the-office-ui.netlify.app/components/components.css">"
+
+```bash
+   <link rel="stylesheet" href="https://the-office-ui.netlify.app/components/components.css">
+```
+
+""
                              
 Dependencies
 
