@@ -1,31 +1,5 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"); */
 
-* {
-  top: 0;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  --fulvous: rgb(217, 126, 28);
-  --fulvous-light: rgb(217, 126, 28);
-  --border-danger: rgb(216, 43, 43);
-  --bright-navy-blue: hsla(211, 77%, 48%, 1);
-  --hookers-green: hsla(152, 21%, 36%, 1);
-  --border-succes: rgb(73, 216, 149);
-  --mint-cream: hsla(120, 100%, 98%, 1);
-  --black-chocolate: hsla(57, 100%, 4%, 1);
-}
-
-.disp-flex {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem 0;
-  gap: 2px;
-}
-
 .avatar-section {
   border: none;
 }
