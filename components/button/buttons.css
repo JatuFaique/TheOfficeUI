@@ -50,6 +50,11 @@ button:hover {
   color: white;
 }
 
+.links a {
+  text-decoration: none;
+  color: var(--mint-cream);
+}
+
 .p-outline {
   background-color: white;
   color: var(--fulvous);
