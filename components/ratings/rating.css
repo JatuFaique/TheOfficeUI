@@ -18,3 +18,22 @@ body {
   --mint-cream: hsla(120, 100%, 98%, 1);
   --black-chocolate: hsla(57, 100%, 4%, 1);
 }
+
+.rating-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fill {
+  color: var(--fulvous);
+}
+
+.rating-icon {
+  box-sizing: border-box;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  background: var(--bright-navy-blue);
+  color: var(--mint-cream);
+}
