@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("/components/button/buttons.css");
+
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  --fulvous: rgb(217, 126, 28);
+  --fulvous-light: rgba(217, 126, 28, 0.349);
+  --border-danger: rgb(216, 43, 43);
+  --bright-navy-blue: hsla(211, 77%, 48%, 1);
+  --hookers-green: hsla(152, 21%, 36%, 1);
+  --border-succes: rgb(73, 216, 149);
+  --mint-cream: hsla(120, 100%, 98%, 1);
+  --black-chocolate: hsla(57, 100%, 4%, 1);
+}
+
+.mod {
+  border: 1px solid #00000881;
+}
+
+.mod-title {
+  font-weight: bolder;
+}
+
+.dis-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.s-30 {
+  max-width: 30vw;
+  max-height: 30vh;
+}
+
+.s-50 {
+  max-width: 50vw;
+  max-height: 40vh;
+}
+
+.s-75 {
+  max-width: 75vw;
+  max-height: 45vh;
+}
+
+.p-3 {
+  padding: 1rem;
+}
+
+.gr {
+  color: #ffffff;
+  border-color: gray;
+  background-color: gray;
+}
+
+.sec-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: var(--fulvous);
+  color: #ffffff;
+}
+
+.sec-body {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.sec-footer {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: flex-end;
+  gap: 8px;
+}
