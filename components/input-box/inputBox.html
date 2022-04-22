@@ -15,15 +15,13 @@
     <h2>Input Box</h2>
     <section class="input-box disp-flex">
       <div class="input-field">
-        <input id="email-field" type="email" />
-        <label for="email-field" class="placeholder" pattern=".*\S.*"
-          >Enter Email</label
-        >
+        <input id="email-field" type="text" pattern=".*\S.*" required />
+        <label for="email-field" class="placeholder">Enter Email</label>
       </div>
     </section>
     <section class="input-box disp-flex">
       <div class="input-field">
-        <input id="email-field" type="email" />
+        <input id="email-field" type="text" pattern=".*\S.*" required />
         <label for="email-field" class="placeholder">Enter Email</label>
         <span class="error-message" aria-live="polite"
           >The email is invalid</span

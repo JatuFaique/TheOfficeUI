@@ -3,7 +3,6 @@
 input {
   /* border: none; */
   border: 2px solid var(--fulvous);
-
   padding: 8px;
   border-radius: 3px;
 }
@@ -24,11 +23,19 @@ input {
   /* padding: 8px; */
 }
 
-.input-field input:valid + .placeholder {
+.input-field input:valid ~ .placeholder,
+input:focus ~ .placeholder {
   top: 0px;
   left: 8px;
   font-size: 10px;
 }
+
+/* .input-field input:focus ~ label,
+input:valid ~ label {
+  top: 0px;
+  left: 8px;
+  font-size: 10px;
+} */
 
 .input-field .error-message {
   width: 100%;
