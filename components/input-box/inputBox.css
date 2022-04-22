@@ -24,7 +24,7 @@ input {
   /* padding: 8px; */
 }
 
-.input-field input:focus + .placeholder {
+.input-field input:valid + .placeholder {
   top: 0px;
   left: 8px;
   font-size: 10px;

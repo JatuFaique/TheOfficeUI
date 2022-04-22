@@ -11,6 +11,27 @@
 .list-heading {
 } */
 
+.list-stacked {
+  border: 1px solid #e6e6e9;
+  padding-left: 0;
+  margin: 1em;
+  border-radius: 0.5em;
+}
+
+.list-stacked > p {
+  background-color: var(--fulvous-light);
+  padding: 1em;
+}
+
+.list-stacked > li {
+  font-size: 0.95rem;
+  list-style: none;
+  border-bottom: 1px solid #e6e6e9;
+  padding: 1em;
+  margin-left: 0.5em;
+  cursor: pointer;
+}
+
 .list-heading > span {
   font-size: 1.2rem;
   font-weight: 500;
