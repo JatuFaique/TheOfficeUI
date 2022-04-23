@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./docs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/mexico-light.min.css"
+    />
+    <link rel="stylesheet" href="/components/components.css" />
+    <script
+      src="https://kit.fontawesome.com/51b1b3d424.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Documentation</title>
+  </head>
+  <body>
+    <header class="header disp-flex">
+      <a class="brandname-link" href="/index.html">
+        <span class="brandname">
+          <img class="brandname-logo" src="../OfficeuiLogo.png" />
+          <span class="brandname-title">TheOfficeUI</span>
+        </span>
+      </a>
+      <a><span class="docs-link">Documentation</span></a>
+    </header>
+    <div class="grid-row">
+      <nav class="site-nav">
+        <div class="nav-main-heading">Getting Started</div>
+
+        <div class="nav-sub-heading nav-getstarted">
+          <a style="color: var(--fulvous-light)" href="#usage">Usage</a>
+        </div>
+
+        <div class="nav-main-heading">Components</div>
+        <ul class="nav-comp-section">
+          <li class="component-links">
+            <a href="#Avatars">Avatar</a>
+          </li>
+          <li class="component-links">
+            <a href="#Alerts">Alert</a>
+          </li>
+          <li class="component-links">
+            <a href="#Badge">Badge</a>
+          </li>
+          <li class="component-links">
+            <a href="#Buttons">Button</a>
+          </li>
+          <li class="component-links">
+            <a href="#card">Card</a>
+          </li>
+          <li class="component-links">
+            <a href="#image">Image</a>
+          </li>
+          <li class="component-links">
+            <a href="#input-box">Input</a>
+          </li>
+          <li class="component-links">
+            <a href="#list-items">List</a>
+          </li>
+          <li class="component-links">
+            <a href="#toast">Toast</a>
+          </li>
+          <li class="component-links">
+            <a href="#typography">Typography</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="comp-disp">
+        <h1 id="usage" class="comp-disp-header">Usage</h1>
+        <p class="comp-desc">
+          To start using the components in your project import the stylesheet in
+          your css or html file.
+        </p>
+        <div class="code-display">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28245%2C166%2C35%2C1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fthe-office-ui.netlify.app%252Fcomponents%252Fcomponents.css%2522%253E"
+            style="
+              width: 805px;
+              height: 109px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <p class="comp-desc">
+          You can use any component of your choice by selecting a suitable
+          classes as shown below.
+        </p>
+
+        <div id="Avatars">
+          <h2>Avatars</h2>
+          <p>Avatars are a very essential elements in developing good UI</p>
+          <p>
+            You can easily use the type of avatar specifying the size as shown
+            below ex "av-s,av-m,av-l"
+          </p>
+
+          <h2 class="sub-heading">Avatars Small</h2>
+          <section class="avatar-section disp-flex">
+            <div class="av-s bs">A</div>
+            <div class="av-s br-bs">F</div>
+            <div class="av-s br-sc">S</div>
+            <div class="av-s">
+              <img src="https://picsum.photos/200" />
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-s%2520bs%2522%253EA%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2520br-bs%2522%253EF%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2520br-sc%2522%253ES%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 397px;
+                height: 190px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="sub-heading">Avatars Medium</h2>
+          <section class="avatar-section disp-flex">
+            <div class="av-m bs">A</div>
+            <div class="av-m br-bs">F</div>
+            <div class="av-m br-sc">S</div>
+            <div class="av-m">
+              <img src="https://picsum.photos/200" />
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-m%2520bs%2522%253EA%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2520br-bs%2522%253EF%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2520br-sc%2522%253ES%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 380px;
+                height: 190px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="sub-heading">Avatars Large</h2>
+          <section class="avatar-section disp-flex">
+            <div class="av-l bs">A</div>
+            <div class="av-l br-bs">F</div>
+            <div class="av-l br-sc">S</div>
+            <div class="av-l">
+              <img src="https://picsum.photos/200" />
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-l%2520bs%2522%253EA%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2520br-bs%2522%253EF%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2520br-sc%2522%253ES%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 380px;
+                height: 190px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="Badge">
+          <h2>Badges Small</h2>
+          <p>
+            Badges are a special type of avatar which you can use along with a
+            badge using 'badge' and specifying its content
+          </p>
+          <section class="avatar-section disp-flex">
+            <div class="av-s bs">
+              <i class="fas fa-info"></i>
+              <div class="badge-s w-txt">+99</div>
+            </div>
+            <div class="av-s bs">
+              A
+              <div class="badge-s"></div>
+            </div>
+            <div class="av-s br-bs">
+              F
+              <div class="badge-s"></div>
+            </div>
+            <div class="av-s br-sc">
+              S
+              <div class="badge-s"></div>
+            </div>
+            <div class="av-s">
+              <img src="https://picsum.photos/200" />
+              <div class="badge-s w-txt">12+</div>
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-s%2520bs%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-s%2520w-txt%2522%253E%252B99%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2520bs%2522%253E%250A%2520%2520A%250A%2520%2520%253Cdiv%2520class%253D%2522badge-s%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2520br-bs%2522%253E%250A%2520%2520F%250A%2520%2520%253Cdiv%2520class%253D%2522badge-s%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2520br-sc%2522%253E%250A%2520%2520S%250A%2520%2520%253Cdiv%2520class%253D%2522badge-s%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-s%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-s%2520w-txt%2522%253E12%252B%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 380px;
+                height: 450px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Badge Medium</h2>
+          <section class="avatar-section disp-flex">
+            <div class="av-m bs">
+              <i class="fas fa-info"></i>
+              <div class="badge-s w-txt">+99</div>
+            </div>
+            <div class="av-m bs">
+              A
+              <div class="badge-m"></div>
+            </div>
+            <div class="av-m br-bs">
+              F
+              <div class="badge-m"></div>
+            </div>
+            <div class="av-m br-sc">
+              S
+              <div class="badge-m"></div>
+            </div>
+            <div class="av-m">
+              <img src="https://picsum.photos/200" />
+              <div class="badge-m w-txt">10+</div>
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-m%2520bs%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-s%2520w-txt%2522%253E%252B99%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2520bs%2522%253E%250A%2520%2520A%250A%2520%2520%253Cdiv%2520class%253D%2522badge-m%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2520br-bs%2522%253E%250A%2520%2520F%250A%2520%2520%253Cdiv%2520class%253D%2522badge-m%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2520br-sc%2522%253E%250A%2520%2520S%250A%2520%2520%253Cdiv%2520class%253D%2522badge-m%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-m%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-m%2520w-txt%2522%253E10%252B%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 380px;
+                height: 450px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Badge Large</h2>
+          <section class="avatar-section disp-flex">
+            <div class="av-l bs">
+              <i class="fas fa-info"></i>
+              <div class="badge-s w-txt">+99</div>
+            </div>
+            <div class="av-l bs">
+              A
+              <div class="badge-l"></div>
+            </div>
+            <div class="av-l br-bs">
+              F
+              <div class="badge-l"></div>
+            </div>
+            <div class="av-l br-sc">
+              S
+              <div class="badge-l"></div>
+            </div>
+            <div class="av-l">
+              <img src="https://picsum.photos/200" />
+              <div class="badge-l w-txt">10</div>
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522av-l%2520bs%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-s%2520w-txt%2522%253E%252B99%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2520bs%2522%253E%250A%2520%2520A%250A%2520%2520%253Cdiv%2520class%253D%2522badge-l%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2520br-bs%2522%253E%250A%2520%2520F%250A%2520%2520%253Cdiv%2520class%253D%2522badge-l%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2520br-sc%2522%253E%250A%2520%2520S%250A%2520%2520%253Cdiv%2520class%253D%2522badge-l%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522av-l%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F200%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-l%2520w-txt%2522%253E10%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 380px;
+                height: 450px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="Buttons">
+          <h2>Buttons</h2>
+          <p>
+            The Primary Buttons can be easily used as shown below along with two
+            style options
+          </p>
+          <section class="btn-section disp-flex-col">
+            <div>
+              <button class="btn-prim">Primary button</button>
+              <button class="btn-prim p-outline">Primary button</button>
+            </div>
+            <div>
+              <button class="btn-secd">Secondary button</button>
+              <button class="btn-secd s-outline">Secondary button</button>
+            </div>
+            <div class="code-display">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=812&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-prim%2522%253EPrimary%2520button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-prim%2520p-outline%2522%253EPrimary%2520button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secd%2522%253ESecondary%2520button%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secd%2520s-outline%2522%253ESecondary%2520button%253C%252Fbutton%253E"
+                style="
+                  width: 812px;
+                  height: 147px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <h2>Buttons with icon</h2>
+            <p>
+              Buttons with icons can be used as shown below with the icon of
+              your choice
+            </p>
+            <button class="btn-succ">
+              <i class="fas fa-search"></i>
+              Search button
+            </button>
+            <button class="btn-dgr">
+              <i class="fas fa-times"></i>
+              Cancel button
+            </button>
+            <div class="code-display">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=812&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-succ%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520Search%2520button%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-dgr%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520Cancel%2520button%250A%253C%252Fbutton%253E"
+                style="
+                  width: 812px;
+                  height: 216px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <h3>Floating axtion Buttons</h3>
+            <button class="btn-float">
+              <i class="far fa-hand-paper"></i>
+              Talk to us here!
+            </button>
+            <div class="code-display">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=812&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=123%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-float%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-hand-paper%2522%253E%253C%252Fi%253E%250A%2520%2520Talk%2520to%2520us%2520here%21%250A%253C%252Fbutton%253E"
+                style="
+                  width: 812px;
+                  height: 147px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </section>
+        </div>
+        <div id="Alerts">
+          <h2>Alerts</h2>
+          <p>The Styles of different type of alerts are shown below</p>
+          <section class="alerts-section disp-flex">
+            <div class="al bs">Default Alert</div>
+          </section>
+          <section class="alerts-section disp-flex">
+            <div class="al ss">Success Alert</div>
+          </section>
+          <section class="alerts-section disp-flex">
+            <div class="al dn">Danger Alert</div>
+          </section>
+          <section class="alerts-section disp-flex">
+            <div class="al in disp-flex-col">
+              <div class="heading">
+                <i class="fas fa-info-circle"></i>
+                <h3>Info</h3>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                expedita delectus distinctio aut dolor eveniet
+              </p>
+            </div>
+          </section>
+          <section class="alerts-section disp-flex">
+            <div class="al wn">
+              <strong>Warning Alert</strong>
+              <span>
+                <i class="fas fa-times"></i>
+              </span>
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522al%2520bs%2522%253EDefault%2520Alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522al%2520ss%2522%253ESuccess%2520Alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522al%2520dn%2522%253EDanger%2520Alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522al%2520in%2520disp-flex-col%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522heading%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ch3%253EInfo%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cp%253E%250A%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ex%250A%2520%2520%2520%2520expedita%2520delectus%2520distinctio%2520aut%2520dolor%2520eveniet%250A%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522al%2520wn%2522%253E%250A%2520%2520%253Cstrong%253EWarning%2520Alert%253C%252Fstrong%253E%250A%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 420px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="card">
+          <h2>Cards</h2>
+          <p>
+            The Cards are important elements of any UI that you build, The
+            Office UI comes with different types of card which can be easily
+            used
+          </p>
+          <h2>Card Horizontal</h2>
+          <div class="card card-horizontal">
+            <div class="content-horizontal">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header header-over-img">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-list">
+              <button>Add to Cart</button>
+              <button>Buy Now</button>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+              <i class="fas fa-info"></i>
+            </div>
+          </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522content-horizontal%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520header-over-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 569px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Card Vertical with text over Image</h2>
+          <div class="card card-vertical">
+            <div class="card-content">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header header-over-img">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Dolores cum dolor consequuntur amet officia
+                  eum fugiat facilis. Quaerat
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-list">
+              <button>Add to Cart</button>
+              <button>Buy Now</button>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+              <i class="fas fa-info"></i>
+            </div>
+          </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520header-over-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%250A%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Dolores%2520cum%2520dolor%2520consequuntur%2520amet%2520officia%250A%2520%2520%2520%2520%2520%2520%2520%2520eum%2520fugiat%2520facilis.%2520Quaerat%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 606px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Card Vertical</h2>
+          <div class="card card-vertical">
+            <div class="card-content">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-list">
+              <button>Add to Cart</button>
+              <button style="display: none">Buy Now</button>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share" style="display: none"></i>
+              <i class="fas fa-info" style="display: none"></i>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520style%253D%2522display%253A%2520none%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%2520style%253D%2522display%253A%2520none%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%2520style%253D%2522display%253A%2520none%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 587px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Card Vertical with close Icon</h2>
+          <div class="card card-vertical">
+            <div class="card-content">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-list">
+              <button>Add to Cart</button>
+              <button>Buy Now</button>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+              <i class="fas fa-info"></i>
+            </div>
+            <span class="close-bdg">
+              <i class="fas fa-times"></i>
+            </span>
+          </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522close-bdg%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 625px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Horizonral Card with Button Bottom</h2>
+          <div class="card card-horizontal">
+            <div class="content-horizontal">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header header-over-img">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.
+                </p>
+                <div class="btn-list">
+                  <button>Add to Cart</button>
+                  <button>Buy Now</button>
+                  <i class="far fa-heart"></i>
+                  <i class="fas fa-share"></i>
+                  <i class="fas fa-info"></i>
+                </div>
+              </div>
+            </div>
+            <div class="btn-list">
+              <h3>Go Back</h3>
+            </div>
+          </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522content-horizontal%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520header-over-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EGo%2520Back%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 606px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Text Only Card</h2>
+          <div class="card card-horizontal">
+            <div class="content-horizontal text-only">
+              <!-- <img class='card-img' src="https://picsum.photos/300" alt='loading' /> -->
+              <div class="card-header">
+                <h5>Title</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today. Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Doloremque alias corporis repellendus velit
+                  dolore deserunt ad sunt nam eos totam, quibusdam vero.
+                  Repellat, autem ut quo aspernatur similique quod
+                  reprehenderit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522content-horizontal%2520text-only%2522%253E%250A%2520%2520%2520%2520%253C%21--%2520%253Cimg%2520class%253D%27card-img%27%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%2520alt%253D%27loading%27%2520%252F%253E%2520--%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253ETitle%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%250A%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Doloremque%2520alias%2520corporis%2520repellendus%2520velit%250A%2520%2520%2520%2520%2520%2520%2520%2520dolore%2520deserunt%2520ad%2520sunt%2520nam%2520eos%2520totam%252C%2520quibusdam%2520vero.%250A%2520%2520%2520%2520%2520%2520%2520%2520Repellat%252C%2520autem%2520ut%2520quo%2520aspernatur%2520similique%2520quod%250A%2520%2520%2520%2520%2520%2520%2520%2520reprehenderit.%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 734px;
+                height: 413px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <!-- Code frame here -->
+
+          <h2>Card with Shadow</h2>
+          <div class="card card-vertical card-shadow">
+            <div class="card-content">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header header-over-img">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Dolores cum dolor consequuntur amet officia
+                  eum fugiat facilis. Quaerat
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-list">
+              <button>Add to Cart</button>
+              <button>Buy Now</button>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+              <i class="fas fa-info"></i>
+            </div>
+          </div>
+          <!-- Code frame here -->
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2520card-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520header-over-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%250A%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Dolores%2520cum%2520dolor%2520consequuntur%2520amet%2520officia%250A%2520%2520%2520%2520%2520%2520%2520%2520eum%2520fugiat%2520facilis.%2520Quaerat%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 624px;
+                height: 618px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h2>Text Over layed</h2>
+          <div class="card card-vertical card-shadow">
+            <div class="overlay-text">I am Overlayed</div>
+            <div class="card-content">
+              <img
+                class="card-img"
+                src="https://picsum.photos/300"
+                alt="loading"
+              />
+              <div class="card-header header-over-img">
+                <h4>Important header</h4>
+                <h5>by Aladin</h5>
+              </div>
+              <div class="card-text">
+                <p>
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Dolores cum dolor consequuntur amet officia
+                  eum fugiat facilis. Quaerat
+                </p>
+              </div>
+            </div>
+
+            <div class="btn-list">
+              <button>Add to Cart</button>
+              <button>Buy Now</button>
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+              <i class="fas fa-info"></i>
+            </div>
+          </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=2px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-vertical%2520card-shadow%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253EI%2520am%2520Overlayed%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F300%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522loading%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2520header-over-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253EImportant%2520header%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%253Eby%2520Aladin%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%250A%2520%2520%2520%2520%2520%2520%2520%2520changes%2520today.%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%250A%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Dolores%2520cum%2520dolor%2520consequuntur%2520amet%2520officia%250A%2520%2520%2520%2520%2520%2520%2520%2520eum%2520fugiat%2520facilis.%2520Quaerat%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522btn-list%2522%253E%250A%2520%2520%2520%2520%253Cbutton%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 624px;
+                height: 637px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="image">
+          <h2>Images</h2>
+          <p>
+            The Image Element which can be used, the Height and Width of the
+            Image Depends on the Actual dimension of image source
+          </p>
+          <br />
+          It comes with 2 styles, Default and Rounded corners
+          <div class="image-bs">
+            <img class="image" src="https://picsum.photos/400" />
+          </div>
+          <div class="image-rnd">
+            <img class="image round" src="https://picsum.photos/400" />
+          </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image-bs%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522image%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522image-rnd%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522image%2520round%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 178px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div id="input-box">
+          <h2>Input Box</h2>
+          <p>
+            Input Box field of TheOfficeUI comes with little animation and two
+            variation of styles
+          </p>
+          <section class="input-box disp-flex">
+            <div class="input-field">
+              <input id="email-field" type="email" />
+              <label for="email-field" class="placeholder">Enter Email</label>
+            </div>
+          </section>
+          <section class="input-box disp-flex">
+            <div class="input-field">
+              <input id="email-field" type="email" />
+              <label for="email-field" class="placeholder">Enter Email</label>
+              <span class="error-message" aria-live="polite"
+                >The email is invalid</span
+              >
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522input-box%2520disp-flex%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522email-field%2522%2520type%253D%2522email%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522email-field%2522%2520class%253D%2522placeholder%2522%253EEnter%2520Email%253C%252Flabel%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E%250A%253Csection%2520class%253D%2522input-box%2520disp-flex%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522input-field%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520id%253D%2522email-field%2522%2520type%253D%2522email%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522email-field%2522%2520class%253D%2522placeholder%2522%253EEnter%2520Email%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522error-message%2522%2520aria-live%253D%2522polite%2522%250A%2520%2520%2520%2520%2520%2520%253EThe%2520email%2520is%2520invalid%253C%252Fspan%250A%2520%2520%2520%2520%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+              style="
+                width: 846px;
+                height: 345px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="list-items">
+          <h2>List Items</h2>
+          <p>
+            List Items of the Items can be used as shown below which comes with
+            2 variations
+          </p>
+          <ul class="list-stacked">
+            <p>Stacked List</p>
+            <li>You have created a cart from items</li>
+            <li>You can have a user signed in</li>
+            <li>Signed in user can add or delete item</li>
+          </ul>
+          <ul class="list">
+            <div class="list-heading">
+              <span>Categories</span>
+
+              <i class="fa-solid fa-minus"></i>
+            </div>
+            <li>Clothing</li>
+            <li>Electronics</li>
+            <li>Kitchen</li>
+            <li>Music</li>
+            <li>Posters</li>
+            <li>Scuba gear</li>
+            <li>Sweatshirts</li>
+          </ul>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%253Cspan%253ECategory%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Clabel%2520for%253D%2522checkbox1%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520Stationary%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Clabel%2520for%253D%2522checkbox2%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520Pencibox%250A%2520%2520%253C%252Flabel%253E%250A%2520%2520%253Clabel%2520for%253D%2522checkbox3%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520Table%250A%2520%2520%253C%252Flabel%253E%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-heading%2522%253E%250A%2520%2520%2520%2520%253Cspan%253ECategories%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-minus%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cli%253EClothing%253C%252Fli%253E%250A%2520%2520%253Cli%253EElectronics%253C%252Fli%253E%250A%2520%2520%253Cli%253EKitchen%253C%252Fli%253E%250A%2520%2520%250A%253C%252Ful%253E"
+              style="
+                width: 846px;
+                height: 569px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div id="typography">
+          <h2>Typography</h2>
+          <p>The Typography can be used as shown in the code</p>
+          <div class="typography-section disp-flex-col">
+            <div class="text-xl">Heading 1</div>
+            <div class="text-l text-grey">Heading 2</div>
+            <div class="text-m text-center">Heading 3</div>
+            <div class="text-sm text-center">Heading 4</div>
+          </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522text-xl%2522%253EHeading%25201%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-l%2520text-grey%2522%253EHeading%25202%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-m%2520text-center%2522%253EHeading%25203%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522text-sm%2520text-center%2522%253EHeading%25204%253C%252Fdiv%253E"
+              style="
+                width: 846px;
+                height: 140px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+
+        <div id="toast">
+          <h2>Toasts</h2>
+          <p>
+            Toasts are the small information area which conveys a special type
+            of information and brings attention
+          </p>
+          <section class="toast disp-flex">
+            <div class="toast-bs disp-flex-col">
+              <div class="toast-title disp-flex-row">
+                Default Toast
+                <span><i class="fas fa-times"></i></span>
+              </div>
+              <div class="toast-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Architecto quisquam fugit totam voluptate excepturi, repellendus
+                iure. Facilis aliquam dolores consequuntur reprehenderit, a
+                perspiciatis harum voluptatibus voluptate molestias, corporis
+                quam ab.
+              </div>
+            </div>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=htmlmixed&width=846&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522toast%2520disp-flex%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast-bs%2520disp-flex-col%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-title%2520disp-flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520Default%2520Toast%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-description%2522%253E%250A%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520Architecto%2520quisquam%2520fugit%2520totam%2520voluptate%2520excepturi%252C%2520repellendus%250A%2520%2520%2520%2520%2520%2520iure.%2520Facilis%2520aliquam%2520dolores%2520consequuntur%2520reprehenderit%252C%2520a%250A%2520%2520%2520%2520%2520%2520perspiciatis%2520harum%2520voluptatibus%2520voluptate%2520molestias%252C%2520corporis%250A%2520%2520%2520%2520%2520%2520quam%2520ab.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+              style="
+                width: 846px;
+                height: 345px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="ratings">
+          <h2>Ratings</h2>
+          <p>Ratings icon can be used as shown below</p>
+          <section class="ratings">
+            <section class="rating-section p-3">
+              <section class="star-icons">
+                <i class="fas fa-star fill"></i>
+                <i class="fas fa-star fill"></i>
+                <i class="fas fa-star fill"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </section>
+              <section class="rating-icon">
+                <span>4.5</span>
+                <i class="fas fa-star fill"></i>
+              </section>
+              <section class="rating-icon">
+                <span>4.5</span>
+                <i class="fas fa-star fill"></i>
+              </section>
+            </section>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=13px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=true&code=%253Csection%2520class%253D%2522star-icons%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520fill%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520fill%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520fill%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253Ci%2520class%253D%2522far%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fsection%253E%250A%253Csection%2520class%253D%2522rating-icon%2522%253E%250A%2520%2520%253Cspan%253E4.5%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520fill%2522%253E%253C%252Fi%253E%250A%253C%252Fsection%253E%250A%253Csection%2520class%253D%2522rating-icon%2522%253E%250A%2520%2520%253Cspan%253E4.5%253C%252Fspan%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520fill%2522%253E%253C%252Fi%253E%250A%253C%252Fsection%253E"
+              style="
+                width: 680px;
+                height: 371px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="Navigation Bar">
+          <h2>Navigation</h2>
+          <p>
+            Navbars provides as an easiet resort for all user specific
+            components
+          </p>
+          <div>
+            <div class="fix">
+              <nav class="nav nav--sticky">
+                <h1>
+                  <span><i class="fas fa-bars"></i></span>
+                  Awesome
+                </h1>
+                <div class="nav--items">
+                  <p>Home</p>
+                  <p>About</p>
+                  <p>Work</p>
+                  <p>User</p>
+                  <div class="av-s br-bs">A</div>
+                </div>
+              </nav>
+              <div class="content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+                vel ea aliquid, totam mollitia praesentium, alias consequuntur
+                tempore eaque voluptatem magnam quod enim? Voluptas sapiente
+                placeat, blanditiis officiis autem tempora? Voluptatum
+                doloremque nobis corrupti facere. Sapiente illo sed iste atque
+                nam rem est, dolorem distinctio quos quidem, ea iusto
+                reprehenderit quas consequatur culpa dicta obcaecati inventore
+                non reiciendis omnis quo.
+              </div>
+            </div>
+
+            <div class="fix">
+              <nav class="nav">
+                <h1>
+                  <span><i class="fas fa-bars"></i></span>
+                  Awesome
+                </h1>
+                <div class="nav--items">
+                  <p>Home</p>
+                  <p>About</p>
+                  <p>Work</p>
+                  <p>User</p>
+                  <div class="av-s br-bs">A</div>
+                </div>
+              </nav>
+              <div class="content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+                vel ea aliquid, totam mollitia praesentium, alias consequuntur
+                tempore eaque voluptatem magnam quod enim? Voluptas sapiente
+                placeat, blanditiis officiis autem tempora? Voluptatum
+                doloremque nobis corrupti facere. Sapiente illo sed iste atque
+                nam rem est, dolorem distinctio quos quidem, ea iusto
+                reprehenderit quas consequatur culpa dicta obcaecati inventore
+                non reiciendis omnis quo.
+              </div>
+            </div>
+
+            <div class="fix">
+              <nav class="nav nav--sticky nav--short">
+                <h1>
+                  <span><i class="fas fa-bars"></i></span>
+                  Awesome
+                </h1>
+              </nav>
+              <div class="content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+                vel ea aliquid, totam mollitia praesentium, alias consequuntur
+                tempore eaque voluptatem magnam quod enim? Voluptas sapiente
+                placeat, blanditiis officiis autem tempora? Voluptatum
+                doloremque nobis corrupti facere. Sapiente illo sed iste atque
+                nam rem est, dolorem distinctio quos quidem, ea iusto
+                reprehenderit quas consequatur culpa dicta obcaecati inventore
+                non reiciendis omnis quo.
+              </div>
+            </div>
+          </div>
+          <div class="code-display"></div>
+        </div>
+        <div id="Grids">
+          <h2>Grids</h2>
+          <p>Simplified Grids</p>
+          <div>
+            <div class="grid-container col-2">
+              <div class="grid-content">
+                <p class="h6">Item 1</p>
+              </div>
+              <div class="grid-content">
+                <p class="h6">Item 2</p>
+              </div>
+            </div>
+
+            <div class="grid-container col-3">
+              <div class="grid-content">
+                <p class="h6">Item 1</p>
+              </div>
+              <div class="grid-content">
+                <p class="h6">Item 2</p>
+              </div>
+              <div class="grid-content">
+                <p class="h6">Item 3</p>
+              </div>
+            </div>
+          </div>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=13px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=true&code=%253Cdiv%2520class%253D%2522grid-container%2520col-2%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-content%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2522%253EItem%25201%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-content%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2522%253EItem%25202%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522grid-container%2520col-3%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-content%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2522%253EItem%25201%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-content%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2522%253EItem%25202%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-content%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2522%253EItem%25203%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 680px;
+                height: 451px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div id="Modals">
+          <h2>Modals</h2>
+          <p>
+            Modals can be shaped as a quick information provider or a attention
+            grabbing element
+          </p>
+          <section class="modals p-3">
+            <section class="mod dis-flex-col s-75">
+              <div class="sec-header p-3">
+                <div class="mod-title">Modal Header</div>
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="sec-body p-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci voluptates eius perspiciatis cum quidem fuga labore,
+                explicabo corporis distinctio harum velit sequi animi pariatur
+                id reprehenderit dolore magni deleniti cupiditate?
+              </div>
+              <div class="sec-footer p-3">
+                <button class="btn-secd">Save</button>
+                <button class="btn-secd s-outline gr">Close`</button>
+              </div>
+            </section>
+          </section>
+          <div class="code-display">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=bw&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=13px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=133%25&si=false&es=2x&wm=true&code=%253Csection%2520class%253D%2522mod%2520dis-flex-col%2520s-75%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522sec-header%2520p-3%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522mod-title%2522%253EModal%2520Header%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522sec-body%2520p-3%2522%253E%250A%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520Adipisci%2520voluptates%2520eius%2520perspiciatis%2520cum%2520quidem%2520fuga%2520labore%252C%250A%2520%2520%2520%2520explicabo%2520corporis%2520distinctio%2520harum%2520velit%2520sequi%2520animi%2520pariatur%250A%2520%2520%2520%2520id%2520reprehenderit%2520dolore%2520magni%2520deleniti%2520cupiditate%253F%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522sec-footer%2520p-3%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-secd%2522%253ESave%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-secd%2520s-outline%2520gr%2522%253EClose%2560%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+              style="
+                width: 680px;
+                height: 379px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

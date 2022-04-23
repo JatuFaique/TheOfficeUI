@@ -1,0 +1,22 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"); */
+
+.toast-bs {
+  max-width: 450px;
+  /* border: 2px solid black; */
+  border: 1px solid var(--fulvous);
+  border-radius: 5px;
+  /* padding: 8px; */
+}
+
+.toast-title {
+  font-weight: bolder;
+  width: 100%;
+  padding: 8px;
+  justify-content: space-between;
+  background-color: var(--fulvous-light);
+}
+
+.toast-description {
+  padding: 8px;
+  color: rgb(143, 143, 143);
+}

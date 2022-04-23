@@ -1,0 +1,43 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"); */
+
+.badge-s {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 30%;
+  width: 30%;
+
+  border: 1px solid var(--border-danger);
+  background-color: var(--border-danger);
+  border-radius: 50%;
+}
+
+.badge-m {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 30%;
+  width: 30%;
+  border: 1px solid var(--border-danger);
+  background-color: var(--border-danger);
+  border-radius: 50%;
+}
+.badge-l {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 30%;
+  width: 30%;
+  border: 1px solid var(--border-danger);
+  background-color: var(--border-danger);
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.w-txt {
+  min-width: 20px;
+  font-size: 70%;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}

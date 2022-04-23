@@ -1,0 +1,29 @@
+.disp-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  gap: 2px;
+}
+
+.disp-flex-col {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 1rem 0;
+  gap: 2px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.disp-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.disp-flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  gap: 2px;
+  text-align: center;
+}

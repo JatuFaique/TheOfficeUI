@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;0,400;0,500;0,700;0,300;1,400;1,500;1,600;1,700;1&display=swap");
+@import "/components/avatar/avatar.css";
+@import "/components/alert/alert.css";
+@import "/components/badge/badges.css";
+@import "/components//button/buttons.css";
+@import "/components/card/Card.css";
+@import "/components/image/image.css";
+@import "/components/input-box/inputBox.css";
+@import "/components/list-items/lists.css";
+@import "/components/toast/toast.css";
+@import "/components/text-utils/textutils.css";
+@import "/components/utils/utility.css";
+@import "/components/ratings/rating.css";
+@import "/components/modal/modal.css";
+@import "/components/grid-layout/grids.css";
+@import "/components/navbar/navbar.css";
+
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  --fulvous: rgb(217, 126, 28);
+  --fulvous-light: rgba(217, 126, 28, 0.349);
+  --border-danger: rgb(216, 43, 43);
+  --bright-navy-blue: rgba(28, 119, 217, 0.63);
+  --hookers-green: rgb(73, 111, 93);
+  --border-succes: rgb(73, 216, 149);
+  --mint-cream: hsla(120, 100%, 98%, 1);
+  --black-chocolate: hsla(57, 100%, 4%, 1);
+}
+
+.ut1 {
+  font-weight: 300;
+}
+
+.ut2 {
+  font-weight: 500;
+}
+
+.ut3 {
+  font-weight: 700;
+}
