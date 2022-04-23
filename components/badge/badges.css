@@ -1,11 +1,23 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"); */
 
+.ic-b-small {
+  font-size: 1.2rem;
+}
+
+.ic-b-medium {
+  font-size: 1.8rem;
+}
+
+.ic-b-large {
+  font-size: 2.5rem;
+}
+
 .badge-s {
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 30%;
-  width: 30%;
+  height: 35%;
+  width: 35%;
 
   border: 1px solid var(--border-danger);
   background-color: var(--border-danger);
@@ -16,8 +28,8 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 30%;
-  width: 30%;
+  height: 35%;
+  width: 35%;
   border: 1px solid var(--border-danger);
   background-color: var(--border-danger);
   border-radius: 50%;
@@ -26,8 +38,8 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 30%;
-  width: 30%;
+  height: 35%;
+  width: 35%;
   border: 1px solid var(--border-danger);
   background-color: var(--border-danger);
   border-radius: 50%;
@@ -36,7 +48,7 @@
 
 .w-txt {
   min-width: 20px;
-  font-size: 70%;
+  font-size: 0.6rem;
   color: white;
   font-weight: 800;
   text-align: center;
