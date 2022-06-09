@@ -1,7 +1,13 @@
+### TEMP-DEV WEEK3 SUBMISSIONS P1 COMPONENETS
+1 - RATING for ECOmm
+2 - MODAL 
+3 - GRID LAYOUT 
+4 - NAVIGATION Bar
+
 # TheOfficeUI
  Component library for smooth and easy building stuff
 
-##The Components you can use
+## The Components you can use
 
 1.Avatar
 2.Badge
